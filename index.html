@@ -18,38 +18,42 @@
 <body>
   <div class="card">
     <div>
-      <img src="images/illustration-hero.svg" />
-    </div>
-    <div>
-      <div>
-        <h1 class="title">Order Summary</h1>
-      </div>
-      <div class="content">
-        <p>You can now buy listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-      </div>
+      <img class="card__header__image" src="images/illustration-hero.svg" />
     </div>
 
-    <div class="innercontent">
-      <div class="annual">
-        <img src="images/icon-music.svg" />
-        <div class="annualcontent">
-          <h3>Annual Plan</h3>
-          <p>$59.99/year</p>
+    <div class="card__body">
+      <div>
+        <div>
+          <h1 class="card__title">Order Summary</h1>
+        </div>
+        <div class="card__text">
+          <p>You can now buy listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
         </div>
       </div>
-      <div>
-        <a href="#">Change</a>
+
+      <div class="card__content">
+        <div class="card__innercontent">
+          <img src="images/icon-music.svg" class="card__image" />
+          <div>
+            <h3>Annual Plan</h3>
+            <p>$59.99/year</p>
+          </div>
+        </div>
+        <div>
+          <a href="#" class="change__link">Change</a>
+        </div>
+      </div>
+
+      <div class="card__buttons">
+        <div>
+          <button class="card__button">Proceed to Payment</button>
+        </div>
+        <div>
+          <a href="#" class="card__link">Cancel Order</a>
+        </div>
       </div>
     </div>
 
-    <div class="buttons">
-      <div>
-        <button class="proceedtopayment">Proceed to Payment</button>
-      </div>
-      <div class="linkcontent">
-        <a href="#" class="orderlink">Cancel Order</a>
-      </div>
-    </div>
   </div>
 </body>
 
