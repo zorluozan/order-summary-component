@@ -1,6 +1,6 @@
 body {
-    background-color: hsl(225, 100%, 94%);
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-color: #e0e8ff;
+    background-image: url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -16,12 +16,12 @@ h3 {
 p {
     margin: 0;
     font-size: 16px;
-    color: gray;
+    color: #808080;
 }
 .card {
     border-radius: 15px;
     width: min-content;
-    background: white;
+    background: #ffffff;
 }
 
 .card__header__image {
@@ -52,7 +52,7 @@ p {
 .card__content {
     display: flex;
     align-items: center;
-    background:  hsl(225, 100%, 98%);
+    background:  #f5f7ff;
     border-radius: 10px;
     justify-content: space-between;
     padding: 10px;
@@ -78,8 +78,8 @@ a.change__link:hover {
 }
 
 .card__button {
-    background-color: blue;
-    color: white;
+    background-color: #0000ff;
+    color: #ffffff;
     border-radius: 10px;
     font-size: 15px;
     padding: 10px;
@@ -90,7 +90,7 @@ a.change__link:hover {
 }
 
 .card__button:hover {
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 10px 10px 10px #808080;
 }
 
 .card__link {
@@ -99,5 +99,5 @@ a.change__link:hover {
 }
 
 a.card__link:hover {
-    color: hsl(223, 47%, 23%);
+    color: #1f2f56;
 }
